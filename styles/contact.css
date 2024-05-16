@@ -1,0 +1,31 @@
+.index-item ul li{
+    list-style: none;
+    margin: 15px;
+}
+.index-item {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding-top: 10px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "League Spartan", sans-serif;
+}
+
+.p-map{
+    margin-top: 10px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: red;
+    padding-top: 12px;
+}
+.q-map{
+    font-size: 19px;
+}

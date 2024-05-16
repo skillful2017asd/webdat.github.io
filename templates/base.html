@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HonDa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@600&family=Kanit&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="logo">
+      <div class="row">
+        <div class="col-xl-3 col-12">
+          <img width="100%" src="../imgs/logo.png" alt="">
+        </div>
+        <div class="col-xl-6 col-12">
+          <div class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Tìm tên sản phẩm..." aria-label="Search"
+              aria-describedby="search-addon" />
+            <span class="input-group-text border-0" id="search-addon">
+              <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>tìm kiếm</button>
+            </span>
+          </div>
+        </div>
+        <div class="col-xl-3 col-12">
+          <span class="icon-header"><i class="fa-solid fa-bell"></i></span>
+        
+          <a href="../templates/login.html">
+            <p class="login-singin">
+              Đăng ký||Đăng nhập
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ul class="menu_ngang">
+        <li><a href="../templates/base.html">Trang Chủ</a></li>
+        <li><a href="">Giới Thiệu</a></li>
+        <li><a href="../templates/contact.html">Liên Hệ</a></li>
+        <li><a href="">Chi Tiết</a></li>
+        <li><a href="">Chăm Sóc Khách Hàng</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="silde_Bar">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imgs/banner1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imgs/banner2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imgs/banner3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+  <div id="container">
+    <div class="row">
+      <div class="col-xl-2 col-md-2 col-12">
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <h3 class="rmenu-par">---Mục lục---</h3>
+          <a class="hover-backroud" href="#">Xe Tay Ga</a>
+          <a class="hover-backroud" href="#">Xe Số</a>
+          <a class="hover-backroud" href="#">Xe Điện</a>
+          <a class="hover-backroud" href="#">Xe Thể Thao</a>
+        </div>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776; Mục lục</button>
+        </div>
+      </div>
+      <div class="col-xl-9 col-md-9 col-12 ">
+        <div>
+          <div class="row" style="padding: 20px;">
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/content1.jpg" alt="">
+                <p class="formatxe">Xe ReBel500 2024</p>
+                <p class="formatgiaxe">Từ 180.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/SH_2024.png" alt="">
+                <p class="formatxe">Xe SH 160i 2024</p>
+                <p class="formatgiaxe">Từ 73.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/CB350.png" alt="">
+                <p class="formatxe">Xe CB350 H'ness</p>
+                <p class="formatgiaxe">Từ 129.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/godswing.jpg" alt="">
+                <p class="formatxe">Xe Gold Swing</p>
+                <p class="formatgiaxe">Từ 1.231.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/SH125.png" alt="">
+                <p class="formatxe">Xe SH125 2023</p>
+                <p class="formatgiaxe">Từ 57.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+              <div class="box-item" style="padding: 5px;">
+                <img class="imgxe" src="../imgs/stranlap.jpg" alt="">
+                <p class="formatxe">Xe TranSalp</p>
+                <p class="formatgiaxe">Từ 390.000 VNĐ</p>
+                <a class="center-button" href="#"><button class="btn_xemthem">Xem Thêm..</button></a>
+              </div>
+            </div>
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="icon">
+      <img width=0" height="70" src="https://vcdn.subiz-cdn.com/file/bubble_08.svg" alt="">
+    </div> -->
+    <div id="backTop">
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+ 
+  </div>
+  <div id="footer">
+    <footer>
+      <div class="row" style="background-color :aliceblue;height: fit-content;">
+        <div class="col-xl-3 col-12" >
+          <div class="item-footer">
+            <img style="border: 1px ; border-radius: 15px;" class="logo-footer" src="../imgs/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+          <ul>
+            <li>
+              <h4>
+                Xe Máy
+              </h4>
+            </li>
+            <li>Sản phẩm</li>
+            <li>Phụ tùng</li>
+            <li>Phụ Kiện</li>
+            <li>Dịch vụ bán hàng</li>
+            <li>Cửa hàng doanh nghiệp</li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+          <ul>
+            <li>
+              <h4>
+                Bản Tin
+              </h4>
+            </li>
+            <li>Nguyễn Thành Đạt</li>
+            <li>DH52110775</li>
+            <li>D21_TH11</li>
+            <li>Tin tức khác</li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12" style="padding-top: 10px;">
+          <a class="img-footer" href=""><i class="bi bi-facebook fa-4x"></i></a>
+          <a class="img-footer" href=""><i class="fa-brands fa-youtube fa-4x"></i></a>
+          <a class="img-footer" href=""><i class="fa-brands fa-tiktok fa-4x"></i></a>
+        </div>
+      </div>
+      
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  <script src="../scripts/click.js"></script>
+  <script src="../scripts/source.js"></script>
+</body>
+
+</html>
