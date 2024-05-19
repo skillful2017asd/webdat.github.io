@@ -6,7 +6,7 @@
 
 .logo {
     background-color: aliceblue;
-    height: 55px;
+    height: 100%;
     width: 100%;
 }
 .login-singin{
@@ -74,11 +74,11 @@
 
 }
 
-.logo li .spanlogin {
+/* .logo li .spanlogin {
     float: right;
-    padding-top: 20px;
+    padding-top: 5%;
     padding-right: 5px;
-}
+} */
 
 .logo {
     position: relative;
@@ -183,7 +183,7 @@ p {
     width: 60%;
     line-height: 2;
     text-align: center;
-
+    border-radius: 30px;
 
 }
 
@@ -298,8 +298,13 @@ p {
   color: #b40f0f;
   opacity: 0.9;
   }
-  @media screen and (max-width: 720px){
+  @media screen and (max-width: 1023px){
     .menu_ngang{
         display: none;
+    }
+  }
+  @media screen (max-width:687px ){
+    .btn_xemthem{
+        
     }
   }

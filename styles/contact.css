@@ -7,7 +7,7 @@
     margin-left: 10px;
     border: 1px solid black;
     padding-top: 10px;
-    border-radius: 15px;
+    border-radius: 30px;
     padding-bottom: 25px;
 }
 * {
@@ -15,6 +15,7 @@
     margin: 0px;
     font-family: "League Spartan", sans-serif;
 }
+
 
 .p-map{
     margin-top: 10px;
@@ -28,4 +29,7 @@
 }
 .q-map{
     font-size: 19px;
+}
+.item-x{
+    border-radius: 15px;
 }

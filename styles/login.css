@@ -239,3 +239,7 @@
         width: 100%;
     }
 }
+.error-message{
+    font-size: 12px;
+    color: red;
+}
