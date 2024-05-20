@@ -1,7 +1,6 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: "League Spartan", sans-serif;
 }
 
 .logo {
@@ -28,7 +27,6 @@
 
 /* @media only screen and (min-width:600px) { */
 .menu_ngang {
-    list-style: none;
     background-color: red;
     display: flex;
     justify-content: space-between;
@@ -37,13 +35,14 @@
     
 }
 
-.menu_ngang li a {
+.menu_ngang  li a {
     font-size: 15px;
     font-weight: 700;
     text-align: center;
     color: white;
     width: 100%;
     display: block;
+    text-decoration: none;
 
 }
 
@@ -51,6 +50,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     flex: 1;
+    list-style: none;
+    
 }
 
 .menu_ngang li:hover {
@@ -297,14 +298,4 @@ p {
   background-color: var(--primary-color);
   color: #b40f0f;
   opacity: 0.9;
-  }
-  @media screen and (max-width: 1023px){
-    .menu_ngang{
-        display: none;
-    }
-  }
-  @media screen (max-width:687px ){
-    .btn_xemthem{
-        
-    }
   }
