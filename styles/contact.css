@@ -9,6 +9,7 @@
     padding-top: 10px;
     border-radius: 30px;
     padding-bottom: 25px;
+    background-color: #fff;
 }
 * {
     padding: 0px;
@@ -25,11 +26,15 @@
     text-align: center;
     color: red;
     padding-top: 12px;
+    background-color: #fff;
 }
 .q-map{
     font-size: 19px;
 }
 .item-x{
     border-radius: 15px;
-    
 }
+body{
+    background-color: #c2c2c2;
+}
+
