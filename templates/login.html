@@ -10,11 +10,11 @@
 </head>
 <body>
     <section id="signUp-container">
-        <form class="form needs-validation" id="register-form">
+        <form class="form needs-validation" id="register-form" >
             <h3 class="form-heading">Đăng Ký</h3>
             <div class="spacer"></div>
             </div>
-            <div class="form-group">
+            <div class="form-group" >
                 <label for="email" class="form-lable">Email</label>
                 <input
                     class="form-control email"
@@ -93,8 +93,7 @@
                         value=""
                         required
                     />
-                    <div id="invalid-feedback user-name">
-                      </div>
+                    <span class="error-message erroremail_login"></span>
                 </div>
                 <div class="form-group">
                     <label for="password" class="form-lable"
@@ -107,13 +106,12 @@
                         type="password"
                         required
                     />
-                    <div class="invalid-feedback text-start">
-                    </div>
+                    <span class="error-message errorpass_login"></span>
                 </div>
                 <p class="switch-register-form">
                     Bạn chưa có tài khoảng? <a href="#">Đăng ký</a>
                 </p>
-                <button class="form-submit" type="submit" name="submit_login">Đăng nhập</button>
+                <button class="form-submit-login" type="submit" name="submit_login">Đăng nhập</button>
             </form>
         </div>
     </section>
