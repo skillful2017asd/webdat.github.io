@@ -22,6 +22,33 @@ btnBar.onclick = ()=>{
     menuNgang.classList.add('d-b');
 }
 
+ // let btn_them = document.querySelector('.btn_xemthem');
+//  let body = document.querySelector('.body-style');
+// btn_them.onclick =()=> {
+    //     body.classList.add('d-n');
+    //     console.log( body.classList.add('d-n'));
+    // }
+    function myFunction(){
+        let body = document.querySelector('.body-style');
+        let ifream = document.querySelector('.iframe');
+        body.style.display = 'none';
+        ifream.style.display = 'block';
+}
+document.querySelector('.btn_xemthem').addEventListener('click', myFunction);
+
+let dong = document.querySelector('btn_dong');
+let body = document.querySelector('.body-style');
+let ifream = document.querySelector('.iframe');
+function Dong(){
+    let body = document.querySelector('.body-style');
+    let ifream = document.querySelector('.iframe');
+    body.style.display = 'flex';
+    ifream.style.display = 'none';
+}
+document.querySelector('.btn_dong').addEventListener('click', Dong);
+
+
+
 
 
 
