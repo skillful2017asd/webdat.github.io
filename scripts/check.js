@@ -13,6 +13,13 @@ $('.form-submit').click(function (event){
 	let validatePhone = true;
 	let validate = true;
 
+    // if (!validateEmail(email)) {
+    //     $('.erroremail').text('email đang không đúng ');
+    //     validateEmail = false
+    // } else {
+    //     $('.erroremail').text('');
+    //     validateEmail = true;
+    // }
     if (email === ''){
         $('.erroremail').text('email đang để trống');
         validateEmail = false
@@ -46,6 +53,10 @@ $('.form-submit').click(function (event){
         $('.errorpass').text('');
         validateName = true;
     }
+    // function validateEmail(email) {
+    //     var emailRegex = /\S+@\S+\.\S+/;
+    //     return emailRegex.test(email);
+    // }
 
     validate = validateName && validatePass && validateEmail && validatePhone;
     if(validate){

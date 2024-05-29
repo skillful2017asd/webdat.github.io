@@ -55,4 +55,6 @@ body{
     background-color: red;
     font-size: 14px;
 }
-
+.ggmap{
+    width: 100%;
+}
