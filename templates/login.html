@@ -5,57 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/login.css">
-   
-   
+
 </head>
 <body>
     <section id="signUp-container">
-        <form class="form needs-validation" id="register-form" >
+        <form class="form" id="register-form" >
             <h3 class="form-heading">Đăng Ký</h3>
             <div class="spacer"></div>
             </div>
             <div class="form-group" >
-                <label for="email" class="form-lable">Email</label>
+                <label class="form-lable">Email</label>
                 <input
                     class="form-control email"
                     name="emailRegister"
                     placeholder="Ex: email@gmail.com"
                     type="email"
-                
+                    required
                 />
                 <span class="error-message erroremail"></span>
                 </div>
             </div>
             <div class="form-group">
-                    <label for="name" class="form-lable">Tên</label>
+                    <label class="form-lable">Tên</label>
                     <input
                         class="form-control"
                         name="firstName"
                         placeholder="Nhập tên"
                         type="text"
-                    
+                        required
                     />
                     <span class="error-message errorname"></span>
             </div>
             <div class="form-group">
-                <label for="phone-number" class="form-lable">Số điện thoại</label>
+                <label class="form-lable">Số điện thoại</label>
                 <input
                     class="form-control phone-number"
                     name="phoneNumber"
                     placeholder="Nhập số điện thoại"
                     type="text"
-                
+                    required
                 />
                 <span class="error-message errorphone"></span>
             </div>    
             <div class="form-group">
-                <label for="passwordRegister" class="form-lable">Mật khẩu</label>
+                <label class="form-lable">Mật khẩu</label>
                 <input
                     class="form-control password-register"
                     name="passwordRegister"
                     placeholder="Nhập mật khẩu"
                     type="password"
-                
+                    required
                 />
                 <span class="error-message errorpass"></span>
             </div>
@@ -78,11 +77,11 @@
             <h4>Hãng Xe Việt Nam Chất Lượng</h4>
         </div>
         <div>
-            <form class="form needs-validation" id="login-form">
+            <form class="form" id="login-form">
                 <h3 class="form-heading">Login</h3>
                 <div class="spacer"></div>
                 <div class="form-group">
-                    <label for="email" class="form-lable"
+                    <label class="form-lable"
                         >Email</label
                     >
                     <input
@@ -91,20 +90,20 @@
                         placeholder="Nhập email"
                         type="email"
                         value=""
-                    
+                        required
                     />
                     <span class="error-message erroremail_login"></span>
                 </div>
                 <div class="form-group">
-                    <label for="password" class="form-lable"
+                    <label class="form-lable"
                         >Mật khẩu</label
                     >
                     <input
                         class="form-control password"
                         name="passwordLogin"
                         placeholder="Nhập mật khẩu"
-                        type="password"
-                    
+                        type="password"   
+                        required
                     />
                     <span class="error-message errorpass_login"></span>
                 </div>

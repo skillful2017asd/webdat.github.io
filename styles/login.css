@@ -38,7 +38,7 @@
 }
 
 .logo span {
-    color: var(--primary-color);
+    color: red
 }
 
 #login-container .login-logo h4 {
@@ -61,7 +61,7 @@
 .form-heading {
     font-size: 30px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: red
 }
 
 .form-group {
