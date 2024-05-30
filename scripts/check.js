@@ -63,33 +63,6 @@ $('.form-submit').click(function (event) {
     }
 });
 
-$('.form-submit-login').click(function (e) {
-    let email_login = $('input[name="emailLogin"]').val();
-    let pass_login = $('input[name="passwordLogin"]').val();
-
-    let validatePass_login = true;
-    let validateEmail_login = true;
-
-    if (email_login === '') {
-        $('.erroremail_login').text('Email đang để trống');
-        validateEmail_login = false
-    }
-    else if (!isValidEmail(email)) {
-        $('.erroremail_login').text('Email không hợp lệ');
-        validateEmail = false;
-    } else {
-        $('.erroremail_login').text('');
-        validateEmail_login = true;
-    }
-    if (pass_login === '') {
-        $('.errorpass_login').text('Mật khẩu đang để trống');
-        validatePass_login = false
-    } else {
-        $('.errorpass_login').text('');
-        validatePass_login = true;
-    }
-
-});
 
 $('.form-contact').click(function (e) {
     let email_contact = $('input[name="email-Contact"]').val();
